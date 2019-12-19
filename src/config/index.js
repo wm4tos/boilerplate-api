@@ -6,4 +6,6 @@ module.exports = Object.freeze({
   NODE_ENV: process.env.NODE_ENV,
   MONGODB_URI: process.env.MONGODB_URI,
   MONGODB_DATABASE: process.env.MONGODB_DATABASE,
+  REDIS_EXPIRES: process.env.REDIS_EXPIRES,
+  REDIS_URL: process.env.REDIS_URL,
 });
