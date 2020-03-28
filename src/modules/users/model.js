@@ -18,10 +18,6 @@ const userSchema = new Schema({
     type: String,
     default: false,
   },
-  phone: {
-    type: String,
-    required: true,
-  },
 });
 
 module.exports.userSchema = userSchema;
