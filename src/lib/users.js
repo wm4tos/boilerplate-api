@@ -11,18 +11,15 @@ module.exports = [
     name: 'Fake user 1',
     email: 'user1@email.com',
     password: generateHash('fake-user123'),
-    isAdmin: false,
   },
   {
     name: 'Fake user 2',
     email: 'user2@email.com',
     password: generateHash('fake-user123'),
-    isAdmin: false,
   },
   {
     name: 'Fake user 3',
     email: 'user3@email.com',
     password: generateHash('fake-user123'),
-    isAdmin: false,
   },
 ];
